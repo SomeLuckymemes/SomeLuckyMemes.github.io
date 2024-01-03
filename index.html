@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>myaumyau</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+        <meta property="og:title" content="myaumyau.dev Code Portfolio" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://myaumyau.dev" />
+        <meta property="og:image" content="img.png" />
+        <meta property="og:description" content="Hi, I'm Daniil, a developer who enjoys problem-solving through programming." />
+        <meta name="theme-color" content="#9d2aa5">
+
+        <meta name="twitter:card" content="summary_large_image">
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="pdf.css">
+        <link rel="stylesheet" type="text/css" href="projects.css">
+    </head>
+    <body>
+        <script src="color.js"></script>
+        <div class="main">
+            <div class="color-switch">
+            </div>
+            <div class="name-bg"></div>
+            <script src="mountain-gen.js"></script>
+            <div class="name-head">
+                myaumyau.dev
+            </div>
+            <div class="side-nav-menu">
+            </div>
+            <div class="main-container">
+                <div class="sidebar-left">
+                </div>
+                <div class="main-content">
+                    <div style="height:120px;"></div>
+                    <div class="name-foot">
+                        Hi, I'm Daniil Petrov<br/>
+                        (myaumyau)
+                    </div>
+                    <div class="subtext">
+                        I'm <a>
+                            a 17
+                            <script>
+                                let birthday = new Date("Jan 12 2006");
+                                let ageDate = new Date(Date.now() - birthday);
+                                let age = Math.abs(ageDate.getUTCFullYear() - 1970);
+                                let word = "a ";
+                                if(age == 18){
+                                    word = "an ";
+                                }
+                                document.currentScript.parentElement.innerHTML = word + age.toString();
+                                //Totally worth it
+                            </script>
+                        </a>
+                        year old developer who enjoys problem-solving through programming.
+                    </div>
+                    <div style="height:16px;"></div>
+                    <div class="social-buttons">
+                        <div class="social-button" onclick="window.open('https://github.com/2myaus');"><svg fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" style="width:100%; height:100%;" xmlns="http://www.w3.org/2000/svg"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></div>
+                        <div class="social-button" onclick="window.open('https://www.linkedin.com/in/daniil-petrov-784ab7286/');"><svg fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" style="width:100%; height:100%;" xmlns="http://www.w3.org/2000/svg"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></div>
+                        <div class="social-button">
+                            <svg fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 m-2 text-highlight " style="width:100%; height:100%;" xmlns="http://www.w3.org/2000/svg"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            <div class="social-popup" style="position: absolute;">
+                                myaumyau@myaumyau.dev
+                                <br/>
+                                <a class="contact-button email-copy-button" onclick="navigator.clipboard.writeText('myaumyau@myaumyau.dev')">Copy</a>  <a href="mailto:myaumyau@myaumyau.dev">Open</a>
+                            </div>
+                            <script src="button_popup.js"></script>
+                        </div>
+                    </div>
+                    <div style="height:20px;"></div>
+
+                    <div class="section-head" nav-label="about" id="about">
+                        About Me
+                    </div>
+                    <div class="content-text">
+                        <div class="col-layout collapsible">
+                            <div class="content-col">
+                                <div class="subsection-head" nav-sublabel="who i am">
+                                    Who I am
+                                </div>
+                                <div class="subsection">
+                                    I'm Daniil Petrov, a self-taught programmer and a high school senior. More importantly, though, I am a problem-solver who loves writing code.
+                                </div>
+                                <div class="subsection">
+                                    For as long as I can remember, I've been hooked on what I can do with technology. I excel at complex challenges and take any opportunity to make myself think. Whether it's building a website from scratch or writing a high-efficiency low-level program, I won't settle for anything less than my dream.
+                                </div>
+                            </div>
+                            <div class="content-col">
+                                <div class="subsection-head" nav-sublabel="what i code in">
+                                    What I code in
+                                </div>
+                                <div class="col-layout">
+                                    <div class="content-col">
+                                        <div class="subsection">
+                                            Primarily:
+                                        </div>
+                                        <div class="subsection" style="color:var(--text-light-2);">
+                                            - C / C++<br/>
+                                            - C#<br/>
+                                            - Javascript<br/>
+                                            - HTML/CSS<br/>
+                                            - Python<br/>
+                                            - Java<br/>
+                                            - PHP</br/>
+                                        </div>
+                                    </div>
+                                    <div class="content-col">
+                                        <div class="subsection">
+                                            Experience with:
+                                        </div>
+                                        <div class="subsection" style="color:var(--text-light-2);">
+                                            - Rust<br/>
+                                            - SQL<br/>
+                                            - Ruby<br/>
+                                            - Golang<br/>
+                                            - Dart<br/>
+                                            - Swift
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-head" nav-label="projects" id="projects">
+                        My Projects
+                    </div>
+                    <div class="content-text">
+                        <div class="col-layout collapsible">
+                            <div class="content-col">
+                                <div class="subsection-head" nav-sublabel="software">Software</div>
+                                <div class="subsection">
+                                    <div class="grid-layout">
+                                        <div class="project fastrm">
+                                            <div class="subsection-head" nav-sublabel="">Fast Rock Maker</div>
+                                            <div class="desc">
+                                                A continuous 2d cave-generation algorithm written in C++ and made for my work-in-progress cave game, Noct
+                                            </div>
+                                            <div class="project-github-button project-svg-icon" onclick="window.open('https://github.com/2myaus/Fast-Rock-Maker')"><svg fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" style="width:100%; height:100%;" xmlns="http://www.w3.org/2000/svg"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></div>
+                                            <div class="background-cover"></div>
+                                            <video src="" late-src="Media/cave.webm" poster="Media/cavepreview.webp"  class="bg" autoplay muted disablePictureInPicture></video>
+                                        </div>
+                                        <div class="project chesscat">
+                                            <div class="subsection-head" nav-sublabel="">Chesscat</div>
+                                            <div class="desc">
+                                                A chess game controller written in C++ that supports custom game rules such as different board sizes and kangaroo pawns
+                                            </div>
+                                            <div class="project-github-button project-svg-icon" onclick="window.open('https://github.com/2myaus/ChesscatPlusPlus')"><svg fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" style="width:100%; height:100%;" xmlns="http://www.w3.org/2000/svg"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></div>
+                                            <div class="background-cover"></div>
+                                            <img src="Media/chesscat.webp" class="bg">
+                                        </div>
+                                        <div class="project catears">
+                                            <div class="subsection-head" nav-sublabel="">Catears</div>
+                                            <div class="desc">
+                                                A console-based passive network scanner written in C to detect local network devices without active pinging
+                                            </div>
+                                            <div class="project-github-button project-svg-icon" onclick="window.open('https://github.com/2myaus/catears')"><svg fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" style="width:100%; height:100%;" xmlns="http://www.w3.org/2000/svg"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></div>
+                                            <div class="background-cover"></div>
+                                            <img src="Media/catears.webp" class="bg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-col">
+                                <div class="subsection-head" nav-sublabel="games">Games</div>
+                                <div class="subsection">
+                                    <div class="grid-layout">
+                                        <div class="project bagt">
+                                            <div class="subsection-head" nav-sublabel="">Bad Asteroid Game Thing</div>
+                                            <div class="desc">
+                                                Arcade-style game about dodging asteroids, made with PIXI.js
+                                            </div>
+                                            <div class="project-game-button project-svg-icon" onclick="window.open('https://proto.myaumyau.dev/misc/bagt/')"><svg fill="none" stroke-width="6" viewBox="10 10 80 80" stroke-linecap="round" stroke-linejoin="round" style="width:100%; height:100%;" xmlns="http://www.w3.org/2000/svg"><path d="M59.7,47,48.3,39.4a3.6,3.6,0,0,0-5.6,3V57.6a3.6,3.6,0,0,0,5.6,3L59.7,53A3.6,3.6,0,0,0,59.7,47Z" /><path d="M82.1,50A32.1,32.1,0,1,1,50,17.9,32.1,32.1,0,0,1,82.1,50Z"/></svg></div>
+                                            <div class="background-cover"></div>
+                                            <video src="" late-src="Media/bagt.webm" poster="Media/bagtpreview.webp" class="bg" autoplay muted disablePictureInPicture></video>
+                                        </div>
+                                        <div class="project doodleswing">
+                                            <div class="subsection-head" nav-sublabel="">Doodle Swing</div>
+                                            <div class="desc">
+                                                Arcade-style game where you swing from point to point, made with Unity
+                                            </div>
+                                            <div class="project-game-button project-svg-icon" onclick="window.open('https://proto.myaumyau.dev/misc/doodleswing/')"><svg fill="none" stroke-width="6" viewBox="10 10 80 80" stroke-linecap="round" stroke-linejoin="round" style="width:100%; height:100%;" xmlns="http://www.w3.org/2000/svg"><path d="M59.7,47,48.3,39.4a3.6,3.6,0,0,0-5.6,3V57.6a3.6,3.6,0,0,0,5.6,3L59.7,53A3.6,3.6,0,0,0,59.7,47Z" /><path d="M82.1,50A32.1,32.1,0,1,1,50,17.9,32.1,32.1,0,0,1,82.1,50Z"/></svg></div>
+                                            <div class="background-cover"></div>
+                                            <img src="Media/doodleswing.webp" class="bg">
+                                        </div>
+                                        <div class="project factorygame">
+                                            <div class="subsection-head" nav-sublabel="">Factory Game</div>
+                                            <div class="desc">
+                                                Sandbox/Survival game about building logical machines, made with PIXI.js
+                                            </div>
+                                            <div class="project-github-button project-svg-icon" onclick="window.open('https://github.com/2myaus/factorygame/')"><svg fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" style="width:100%; height:100%;" xmlns="http://www.w3.org/2000/svg"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></div>
+                                            <div class="project-game-button project-svg-icon" onclick="window.open('https://proto.myaumyau.dev/misc/factorygame/')"><svg fill="none" stroke-width="6" viewBox="10 10 80 80" stroke-linecap="round" stroke-linejoin="round" style="width:100%; height:100%;" xmlns="http://www.w3.org/2000/svg"><path d="M59.7,47,48.3,39.4a3.6,3.6,0,0,0-5.6,3V57.6a3.6,3.6,0,0,0,5.6,3L59.7,53A3.6,3.6,0,0,0,59.7,47Z" /><path d="M82.1,50A32.1,32.1,0,1,1,50,17.9,32.1,32.1,0,0,1,82.1,50Z"/></svg></div>
+                                            <div class="background-cover"></div>
+                                            <img src="Media/factory.webp" class="bg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="line-divider-hor"></div>
+                        <div class="subsection-head" nav-sublabel="cad">CAD</div>
+                        <div class="subsection">
+                            <div class="grid-layout">
+                                <div class="project">
+                                    <div class="subsection-head" nav-sublabel="">Robot Dog</div>
+                                    <div class="desc">
+                                        My sophomore-year final project in my Drafting and Design class. A miniature robot dog controlled with twelve servos and an Arduino Nano. Designed in Solidworks.
+                                    </div>
+                                    <div class="project-svg-icon" onclick="openPDF('Media/PDFs/robot-dog.pdf', 'robot_dog')"><svg fill="none" stroke-width="4" viewBox="0 0 48 48" stroke-linecap="round" stroke-linejoin="round" style="width:100%; height:100%;" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path class="cls-1" d="M7.45,5.5a2,2,0,0,0-1.95,2v33.1a2,2,0,0,0,2,2h33.1a2,2,0,0,0,2-2V7.45a2,2,0,0,0-2-1.95Z"></path><path class="cls-1" d="M20.09,30V18h2a6,6,0,0,1,6,6h0a6,6,0,0,1-6,6Z"></path><line class="cls-1" x1="32.48" y1="18.04" x2="38.46" y2="18.04"></line><line class="cls-1" x1="32.48" y1="24.02" x2="36.38" y2="24.02"></line><line class="cls-1" x1="32.48" y1="18.04" x2="32.48" y2="30"></line><path class="cls-1" d="M9.54,30V18h4a4,4,0,0,1,0,8h-4"></path></g></svg></div>
+                                    <div class="background-cover"></div>
+                                    <img src="Media/robodog.webp" class="bg">
+                                </div>
+                                <div class="project">
+                                    <div class="subsection-head" nav-sublabel="">Chalet House</div>
+                                    <div class="desc">
+                                        My favorite junior-year project in Drafting and Design. A 2-story chalet-style house model on a mountain in Sitka, Alaska. Designed in Chief Architect.
+                                    </div>
+                                    <div class="project-svg-icon" onclick="openPDF('Media/PDFs/2-story-house.pdf', 'chalet_house')"><svg fill="none" stroke-width="4" viewBox="0 0 48 48" stroke-linecap="round" stroke-linejoin="round" style="width:100%; height:100%;" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path class="cls-1" d="M7.45,5.5a2,2,0,0,0-1.95,2v33.1a2,2,0,0,0,2,2h33.1a2,2,0,0,0,2-2V7.45a2,2,0,0,0-2-1.95Z"></path><path class="cls-1" d="M20.09,30V18h2a6,6,0,0,1,6,6h0a6,6,0,0,1-6,6Z"></path><line class="cls-1" x1="32.48" y1="18.04" x2="38.46" y2="18.04"></line><line class="cls-1" x1="32.48" y1="24.02" x2="36.38" y2="24.02"></line><line class="cls-1" x1="32.48" y1="18.04" x2="32.48" y2="30"></line><path class="cls-1" d="M9.54,30V18h4a4,4,0,0,1,0,8h-4"></path></g></svg></div>
+                                    <div class="background-cover"></div>
+                                    <img src="Media/2fhouse.webp" class="bg">
+                                </div>
+                                <div class="project">
+                                    <div class="subsection-head" nav-sublabel="">Bathhouse</div>
+                                    <div class="desc">
+                                        My final junior-year project in Drafting and Design. Designed in Chief Architect.
+                                    </div>
+                                    <div class="project-svg-icon" onclick="openPDF('Media/PDFs/junior-final-house.pdf', 'bathhouse')"><svg fill="none" stroke-width="4" viewBox="0 0 48 48" stroke-linecap="round" stroke-linejoin="round" style="width:100%; height:100%;" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path class="cls-1" d="M7.45,5.5a2,2,0,0,0-1.95,2v33.1a2,2,0,0,0,2,2h33.1a2,2,0,0,0,2-2V7.45a2,2,0,0,0-2-1.95Z"></path><path class="cls-1" d="M20.09,30V18h2a6,6,0,0,1,6,6h0a6,6,0,0,1-6,6Z"></path><line class="cls-1" x1="32.48" y1="18.04" x2="38.46" y2="18.04"></line><line class="cls-1" x1="32.48" y1="24.02" x2="36.38" y2="24.02"></line><line class="cls-1" x1="32.48" y1="18.04" x2="32.48" y2="30"></line><path class="cls-1" d="M9.54,30V18h4a4,4,0,0,1,0,8h-4"></path></g></svg></div>
+                                    <div class="background-cover"></div>
+                                    <img src="Media/bathhouse.webp" class="bg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-head" nav-label="contact" id="contact">
+                        Contact Me
+                    </div>
+                    <div class="content-text narrow">
+                        <div class="subsection" style="text-align:center;">
+                            <a style="color:var(--text-light-2);">Email:</a>
+                            myaumyau@myaumyau.dev  
+                            <a onclick="navigator.clipboard.writeText('myaumyau@myaumyau.dev')" class="email-copy-button contact-button">Copy</a>  <a href="mailto:myaumyau@myaumyau.dev">Open</a>
+                            <br/><br/>
+                            <a style="color:var(--text-light-2);">Github:</a>
+                            <a onclick="window.open('https://github.com/2myaus');" class="contact-button">2myaus</a>
+                            <br/><br/>
+                            <a style="color:var(--text-light-2);">Linkedin:</a>
+                            <a onclick="window.open('https://www.linkedin.com/in/daniil-petrov-784ab7286/');" class="contact-button">Daniil Petrov</a>
+                        </div>
+                    </div>
+                    <div class="page-foot noreveal">
+                        Designed in pure HTML/CSS/JS by Daniil Petrov :)<br/>
+                        <a onclick="window.open('https://github.com/2myaus/2myaus.github.io');" class="contact-button" style="color:var(--text-light);">View on Github</a>
+                    </div>
+                </div>
+                <div class="sidebar-right"></div>
+            </div>
+        </div>
+        <script src="animate_text.js"></script>
+        <script src="animate_sidebar.js"></script>
+        <script src="resize_handler.js"></script>
+        <script src="animate_scroll.js"></script>
+        <div class="pdf-container">
+            <div class="iframe-container">
+                <div class="button-bar">
+                    <span class="pdf-title"></span>
+                    <button onclick="closePDF();">X</button>
+                </div>
+                <iframe src=""></iframe>
+            </div>
+        </div>
+        <script src="pdf.js"></script>
+        <script src="videos.js"></script>
+    </body>
+</html>

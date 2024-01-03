@@ -1,0 +1,113 @@
+.project{
+    color:var(--text-light-2);
+    font-size: max(18px, 0.82vw);
+    border-radius: 10px;
+    border: 2px solid var(--text-light);
+    min-height:200px;
+    text-align:center;
+    padding: 10px;
+    padding-bottom: 4vw;
+    position:sticky;
+    overflow:clip;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    cursor:default;
+}
+
+.project .subsection-head{
+    margin-bottom: 10px;
+}
+
+.project .desc{
+    width: 60%;
+    position: sticky;
+}
+
+.project-svg-icon{
+    cursor:pointer;
+    stroke: var(--text-light-2);
+    background:transparent;
+    padding:4px;
+
+    height:max(34px, 1.8vw);
+    width:max(34px, 1.8vw);
+    position: absolute;
+    left: 0.6vw;
+    bottom: 0.6vw;
+}
+
+.project-github-button{
+    transition: background-color 0.1s linear;
+    cursor: pointer;
+    padding:4px;
+}
+
+.project-game-button{
+    transition: background-color 0.1s linear;
+    cursor: pointer;
+    padding:4px;
+}
+
+.project-svg-icon + .project-svg-icon{
+    position: absolute;
+    left: 3vw;
+    bottom: 0.6vw;
+    transition: background-color 0.1s linear;
+    cursor: pointer;
+    padding:4px;
+}
+
+.project .bg{
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position: center;
+    z-index: -2;
+    transition: scale 0.1s ease-out;
+}
+
+.project video.bg{
+    width:140%;
+}
+
+.project .background-cover{
+    position: absolute;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    background-color: var(--bg-main);
+    opacity:0.8;
+    z-index: -1;
+    transition: opacity 0.1s ease-out;
+}
+
+.project:hover .background-cover{
+    opacity:0.7;
+}
+
+.project:hover .bg{
+    scale: 1.02;
+}
+
+.project .desc::before{
+    content:"";
+    z-index: -1;
+    position: absolute;
+    top:-1vw;
+    left:-1vw;
+    right:-1vw;
+    bottom:-1vw;
+    opacity: 0;
+    background-color: var(--bg-main);
+    transition: opacity 0.1s linear;
+    border-radius: 1vw;
+}
+
+.project:hover .desc::before{
+    opacity: 0.3;
+}
