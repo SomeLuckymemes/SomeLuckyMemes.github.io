@@ -20,14 +20,14 @@
 
 body.light{
     --bg-main: #fff;
-    --text-dim: #8e7d8f;
+    --text-dim: #00d6cc
     --text-med: #ff8080;
     --text-light: #ff6060;
     --text-light-2: #b844ae;
     --text-light-3: #ffea8f;
 
     --sun-light: #ffd319;
-    --sun-dark: #f222ff;
+    --sun-dark: #78f000
 
     --sky-top: #7590bf;
     --sky-mid: #ff8e74;
@@ -46,14 +46,14 @@ body{
     --text-dim: #8e7d8f;
     --text-med: #9d2aa5;
     --text-light: #ff2975;
-    --text-light-2: #ffd319;
+    --text-light-2: #03658c
     --text-light-3: #ffea8f;
 
     --sun-light: #ffd319;
-    --sun-dark: #f222ff;
+    --sun-dark: #03658c
 
     --sky-top: var(--bg-main);
-    --sky-mid: #17085a;
+    --sky-mid: #03658c
     --sky-bottom: #e3004f;
     --content-shadow: #ff000071;
 
